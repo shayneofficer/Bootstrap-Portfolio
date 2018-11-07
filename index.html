@@ -1,0 +1,70 @@
+<!-- TODO:
+1. Using Bootstrap, recreate your portfolio site with the following items:
+
+   * A navbar
+
+   * A responsive layout (remember the grid, rows and columns are your friends)
+
+     * eg. On `xs` and `sm` screens, content should take up the entire screen. On `md` and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+
+   * Responsive images
+
+   **BONUS**
+   Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the Bootstrap documentation)_
+
+3. Your Bootstrap solution should minimize use of media queries.
+
+4. Deploy your new Bootstrap-powered portfolio to GitHub Pages. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <script src="main.js"></script> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="navbar-brand">
+        <h2>Shayne Officer</h2>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h2>About Me</h2>
+    <hr class="my-4">
+    <img src="./assets/images/avatar.jfif" alt="avatar">
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+      featured content or information.</p>
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  </div>
+
+</body>
+
+</html>

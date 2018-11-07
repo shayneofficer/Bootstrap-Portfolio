@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/congruent_outline.png);
+    margin: 0;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* nav ul {
+    float: right;
+    border: 1px solid black;
+} */
+
+#navbar-text {
+    /* display: flex;
+    justify-content: flex-end; */
+
+    /* TODO: position to the right of the navbar. Acting like a block element, even when display inline. Float right does nothing, flex-end does nothing, changing width does nothing. */
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-brand h2 {
+    color: #fff;
+}
+
+.jumbotron {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
