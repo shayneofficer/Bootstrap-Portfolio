@@ -2,6 +2,7 @@
 1. Using Bootstrap, recreate your portfolio site with the following items:
 
    * A navbar
+        TODO: Make links on the navbar responsive (currently disappear on smaller screens)
 
    * A responsive layout (remember the grid, rows and columns are your friends)
 
@@ -41,29 +42,62 @@
       </div>
 
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="./index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="jumbotron">
-    <h2>About Me</h2>
-    <hr class="my-4">
-    <img src="./assets/images/avatar.jfif" alt="avatar">
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.</p>
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <div class="container">
+    <div class="jumbotron">
+      <h2 class="display-4">About Me</h2>
+      <hr class="my-4">
+
+      <div class="row">
+        <div class="col-md-3">
+          <img src="./assets/images/avatar.jfif" alt="avatar">
+        </div>
+        <div class="col-md-9">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eligendi necessitatibus excepturi, illum
+            laborum odio, ratione accusamus veniam dolor eos explicabo alias voluptatum nihil, totam maiores omnis?
+            Odit deleniti incidunt illo? Commodi iste velit saepe iusto, optio illum fugiat non natus molestiae
+            temporibus praesentium excepturi, sequi nobis repellat aperiam doloremque assumenda ex nam rerum id quo a?
+            Laudantium harum voluptas eligendi, consequatur ipsam ut reiciendis facilis, obcaecati mollitia unde nulla.
+            Optio eos accusamus aspernatur maiores dolore repellat distinctio dolor doloremque voluptas, repellendus,
+            maxime tenetur ipsam aut aliquid non perferendis nihil molestiae ad suscipit fuga accusantium. Iure
+            distinctio voluptates sint vitae?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel cupiditate natus vitae? Dicta saepe
+            voluptatem labore, inventore laboriosam nam hic, atque, quas consequuntur amet provident quibusdam! Tenetur
+            optio, deserunt dolore, officiis possimus quod reiciendis quasi ipsa expedita in excepturi doloribus facere
+            veniam ducimus totam nobis ipsam autem vitae distinctio fugit blanditiis asperiores minus adipisci! Amet
+            vero rerum ipsa quia consequatur eveniet, quas commodi maiores, illum animi enim. Magni perferendis aut ad
+            doloremque quam ipsa consequatur fuga, ea facilis sequi dignissimos officia natus consequuntur, nulla et
+            sed voluptate aliquam. Facilis nam voluptatibus quae necessitatibus, excepturi suscipit at eum dolores odio
+            minima!</p>
+        </div>
+      </div>
+
+    </div>
   </div>
+
+  <nav class="navbar navbar-expand-lg footer">
+    <div class="container">
+      <p>Copyright @copy;</p>
+    </div>
+  </nav>
 
 </body>
 
